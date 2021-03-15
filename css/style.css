@@ -1,18 +1,18 @@
 body {
     font-family: Arial;
-    margin: 0 20px;
 }
 
 /* HEADER */
 header {
-    width: 100%;
+    width: 95%;
     height: 200px;
+    margin: 0 auto;
 }
 .logo {
+    margin-top: 10px;
     float: left;
 }
 .logo img {
-    width: 180px;
     height: 180px;
 }
 .outer-nav {
@@ -34,9 +34,11 @@ nav ul li a {
     color: rgb(17, 35, 83);
 	text-decoration: none;
 	font-size: 25pt;
+    border-radius: 10px;
+    padding: 0 5px;
 }
 nav ul li a:hover{
-	background-color: #8fbff5;
+	background-color: #becbe7;
 	transition: 0.3s ease;
 }
 .donate {
