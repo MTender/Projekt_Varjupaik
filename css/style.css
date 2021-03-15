@@ -65,15 +65,38 @@ nav ul li a:hover{
     background-color: #b43131;
 	transition: 0.3s ease;
 }
+
 /* FOOTER */
 footer {
+    background-color:rgb(232, 232, 232);
+}
+.footer {
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
-.social-media ul {
-    list-style-type: none;
+.socials ul {
     display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-#email {
-    float: right;
+.socials ul li {
+    margin-right: 20px;
+}
+.dog-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+}
+.email {
+    display: flex;
+    align-items: center;
+}
+.email-address p {
+    font-size: 18pt;
+    margin: 0;
+    margin-left: 20px;
 }
