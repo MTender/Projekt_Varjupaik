@@ -1,9 +1,10 @@
 body {
     font-family: Arial;
+    margin: 0;
 }
 
 /* HEADER */
-header {
+.header {
     width: 95%;
     height: 200px;
     margin: 0 auto;
