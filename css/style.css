@@ -24,12 +24,16 @@ body {
 }
 nav {
     float: left;
-    width: 50%;
+    width: 60%;
 }
 nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 nav ul li a {
     color: rgb(17, 35, 83);
