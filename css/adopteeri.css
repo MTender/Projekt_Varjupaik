@@ -1,0 +1,11 @@
+.breadcrumbs{
+    margin-left: 50px;
+    font-size: 18px;
+}
+.breadcrumbs a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    background-color: RGB(247,243,243);
+}
