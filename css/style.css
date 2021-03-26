@@ -6,26 +6,27 @@ body {
 /* HEADER */
 .header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
     width: 95%;
     height: 200px;
     margin: 0 auto;
 }
-.logo {
+.header .logo {
     margin-top: 10px;
     float: left;
 }
 .logo a img {
     height: 180px;
 }
-.header-left {
+.header .outer-nav {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
-nav ul {
+.outer-nav nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -46,16 +47,15 @@ nav ul li a:hover{
 	background-color: #becbe7;
 	transition: 0.3s ease;
 }
-.header-right {
+.outer-nav .nav-right {
     display: flex;
-    align-items: center;
-    height: 100%;
+    flex-flow: row nowrap;
 }
-.search img {
+.nav-right .search img {
     height: 40px;
     margin-right: 30px;
 }
-.donate a {
+.nav-right .donate a {
     color: white;
     background-color: rgb(216, 60, 45);
     font-weight: bold;
@@ -65,7 +65,7 @@ nav ul li a:hover{
     padding: 12px 42px;
     text-decoration: none;
 }
-.donate a:hover {
+.nav-right .donate a:hover {
     background-color: #b43131;
 	transition: 0.3s ease;
 }
@@ -101,7 +101,7 @@ footer {
 .footer img {
     width: 48px;
 }
-.socials {
+.footer .socials {
     width: 250px;
     margin-right: 50px;
 }
@@ -112,13 +112,13 @@ footer {
     padding: 0;
     margin: 0;
 }
-.email {
+.footer .email {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
 }
-.email-address p {
+.email p {
     font-size: 14pt;
     margin: 0;
 }
