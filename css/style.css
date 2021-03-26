@@ -5,6 +5,9 @@ body {
 
 /* HEADER */
 .header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     width: 95%;
     height: 200px;
     margin: 0 auto;
@@ -16,24 +19,21 @@ body {
 .logo a img {
     height: 180px;
 }
-.outer-nav {
+.header-left {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row nowrap;
     align-items: center;
     height: 100%;
 }
-nav {
-    float: left;
-    width: 60%;
-}
 nav ul {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     list-style-type: none;
 }
 nav ul li{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
+    white-space: nowrap;
 }
 nav ul li a {
     color: rgb(17, 35, 83);
@@ -46,11 +46,10 @@ nav ul li a:hover{
 	background-color: #becbe7;
 	transition: 0.3s ease;
 }
-.donate {
-    float: right;
-}
-.search {
-    float: left;
+.header-right {
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 .search img {
     height: 40px;
@@ -93,31 +92,33 @@ footer {
 }
 .footer {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     width: 95%;
     margin: 0 auto;
     padding: 20px 0;
 }
+.footer img {
+    width: 48px;
+}
+.socials {
+    width: 250px;
+    margin-right: 50px;
+}
 .socials ul {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
-.socials ul li {
-    margin-right: 20px;
-}
-.dog-logo {
-    position: absolute;
-    left: 50%;
-    margin-left: -32px;
-}
 .email {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 300px;
 }
 .email-address p {
-    font-size: 18pt;
+    font-size: 14pt;
     margin: 0;
-    margin-left: 20px;
 }
