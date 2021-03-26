@@ -90,3 +90,7 @@
     font-weight: bold;
     letter-spacing: 0.03em;
 }
+.form .info .form-join input[type="submit"]:hover {
+    background-color: rgb(255, 152, 61);
+	transition: 0.3s ease;
+}
