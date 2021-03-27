@@ -1,5 +1,6 @@
 .content{
     padding-bottom: 30px;
+    width: 100%;
 }
 .inner {
     display: flex;
@@ -10,9 +11,10 @@
 .inner .left {
     width: 50%;
     min-width: 430px;
+    max-width: 90vw;
 }
 .inner .left img {
-    width: 95%;
+    width: 100%;
 }
 .inner .left p {
     font-style: italic;
@@ -21,8 +23,12 @@
     color:rgb(78, 78, 78);
 }
 .inner .right {
-    width: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 48%;
     min-width: 430px;
+    margin: 0 1%;
+    max-width: 90vw;
 }
 .inner .right div h1 {
     font-size: 36pt;
@@ -85,6 +91,7 @@
     border: none;
     cursor: pointer;
     width: 340px;
+    max-width: 90vw;
     height: 80px;
     font-size: 32pt;
     font-weight: bold;
@@ -93,4 +100,25 @@
 .form .info .form-join input[type="submit"]:hover {
     background-color: rgb(255, 152, 61);
 	transition: 0.3s ease;
+}
+
+@media only screen and (max-width:766px){
+    .inner .left {
+        width: 90vw;
+        min-width: 0;
+    }
+    .inner .right {
+        width: 90vw;
+        min-width: 0;
+        margin: 0;
+    }
+    .form .info .form-join input[type="submit"] {
+        font-size: 26pt;
+    }
+    .inner .right div h1 {
+        font-size: 32pt;
+    }
+    .inner .right .text p {
+        font-size: 16pt;
+    }
 }
