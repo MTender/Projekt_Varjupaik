@@ -66,3 +66,33 @@
     margin-bottom: 20px;
     height: 112px;
 }
+
+@media only screen and (max-width:480px){
+    .adopt{
+        justify-content: center;
+        margin: 0px;
+    }
+    .adopt .container .desc h2{
+        font-size: 16pt;
+    }
+    .adopt .container .desc p{
+        font-size: 12pt;
+        height: 55px;
+        margin-bottom: 10px;
+    }
+    .adopt .container{
+        width: 290px;
+        height: 165px;
+    }
+    .adopt .container img{
+        height: 125px;
+        width: 125px;
+    }
+    .adopt .container .desc{
+        width: 115px;
+        padding-right: 10px;
+    }
+    .adopt .container .desc a{
+        padding: 5px 10px;
+    }
+}
