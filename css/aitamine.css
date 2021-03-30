@@ -71,7 +71,6 @@
     padding: 10px;
     font-size: 16pt;
     box-sizing: border-box;
-    font-family: Arial;
 }
 .form .info div input:placeholder-shown {
     font-style: italic;
