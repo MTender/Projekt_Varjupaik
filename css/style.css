@@ -150,4 +150,7 @@ footer {
     .header {
         padding-bottom: 5vh;
     }
+    footer {
+        position: initial;
+    }
 }
