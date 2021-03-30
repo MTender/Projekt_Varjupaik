@@ -76,6 +76,7 @@ nav ul li a:hover{
 /* MAIN */
 main {
     background-color: RGB(247,243,243);
+    min-height: 78vh;
 }
 .breadcrumbs{
     padding-top: 5px;
@@ -91,9 +92,6 @@ main {
 
 /* FOOTER */
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color:rgb(232, 232, 232);
 }
