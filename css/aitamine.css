@@ -38,6 +38,8 @@
     margin-top: 0;
 }
 .inner .right .text p {
+    width: 90%;
+    margin: 0 auto;
     font-size: 20pt;
     line-height: 1.5em;
     letter-spacing: 0.05em;
