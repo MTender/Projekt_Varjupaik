@@ -45,6 +45,7 @@
 .form .info {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
 .form .info .form-left {
     display: flex;
@@ -58,6 +59,7 @@
     border: none;
     width: 80%;
     height: 50px;
+    margin: 0 auto;
     margin-bottom: 10px;
     padding: 0 10px;
     font-size: 16pt;
@@ -67,10 +69,12 @@
     border: none;
     width: 80%;
     height: 150px;
+    margin: 0 auto;
     resize: none;
     padding: 10px;
     font-size: 16pt;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .form .info div input:placeholder-shown {
     font-style: italic;
@@ -79,9 +83,6 @@
 .form .info div textarea:placeholder-shown {
     font-style: italic;
     color: rgb(75, 75, 75);
-}
-.form .info .form-join {
-    margin: 0 auto;
 }
 .form .info .form-join input[type="submit"] {
     margin-top: 20px;
