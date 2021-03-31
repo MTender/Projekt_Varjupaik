@@ -45,7 +45,7 @@
 .form .info {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .form .info .form-left {
     display: flex;
@@ -53,6 +53,7 @@
     width: 50%;
 }
 .form .info .form-right {
+    display: flex;
     width: 50%;
 }
 .form .info div input[type=text] {
